@@ -1,0 +1,63 @@
+input[type='text'],
+input[type='email'] {
+  width: 100%;
+  box-shadow: var(--box-inset);
+  padding: 1rem;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+input[type='checkbox'] {
+  border: none;
+  height: 15px;
+}
+
+input[type='date'] {
+  box-shadow: var(--box-inset);
+  padding: 0.5rem 0;
+}
+
+label {
+  font-size: 0.85rem;
+  color: var(--btn-hover-bg-color);
+}
+
+.input-date-container {
+  display: flex;
+  align-items: space-evenly;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.input-checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.input-text-container {
+  width: 100%;
+}
+
+.input-text-label {
+}
+
+.input-email-container {
+  width: 100%;
+}
+
+.input-date-container {
+  width: 100%;
+  display: flex;
+}
+
+.input-time-container {
+  width: 100%;
+}
+
+.input-date-label {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+}

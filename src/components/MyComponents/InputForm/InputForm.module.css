@@ -1,0 +1,63 @@
+.form-container {
+  margin: 2rem 0;
+  margin-left: 4rem;
+}
+
+fieldset {
+  border: 1px solid var(--btn-hover-bg-color);
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+legend {
+  position: absolute;
+  top: calc(0px - 0.5rem);
+  left: 0;
+  display: block;
+  background-color: var(--bg-color);
+  max-height: 1rem;
+  color: var(--sec-text);
+  padding: 0 1rem;
+}
+
+.text-fieldset {
+  width: 50%;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.date-fieldset {
+  position: relative;
+  width: 25%;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.checkbox-fieldset {
+  width: 50%;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
+  justify-content: space-evenly;
+}
+
+.form-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit-btn {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.submit-btn:hover {
+  font-weight: 800;
+}
