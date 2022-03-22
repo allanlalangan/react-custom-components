@@ -1,0 +1,26 @@
+.my-components-section {
+  height: 90vh;
+}
+
+.my-components-heading {
+  color: var(--sec-text);
+}
+
+.buttons-container {
+  height: 25vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.this-btn {
+  font-weight: 700;
+}
+
+.that-btn {
+  width: 20rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

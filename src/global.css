@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --header-color: hsl(200, 10%, 15%);
+  --bg-color: hsl(200, 25%, 20%);
+  --sec-color: hsl(25, 100%, 75%);
+  --card-bg-color: hsl(0, 0%, 100%);
+  --box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  --btn-color: hsl(0, 100%, 75%);
+  --btn-hover-bg-color: hsl(175, 75%, 50%);
+
+  --prim-text: hsl(185, 0%, 10%);
+  --sec-text: aliceblue;
+  --font-family: 'Nunito Sans', sans-serif;
+}
+
+html {
+  font-family: var(--font-family);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-color);
+}
+
+main {
+}
+
+section {
+  padding: 1rem;
+}
+
+button {
+  border: solid 1px var(--btn-hover-bg-color);
+  padding: 1rem 2rem;
+  cursor: pointer;
+
+  background-color: var(--bg-color);
+
+  border-radius: 0 10px 0 10px;
+  box-shadow: var(--box-shadow);
+  transition: all 0.2s ease-in-out;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

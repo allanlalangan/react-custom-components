@@ -1,0 +1,9 @@
+.button {
+  width: 10rem;
+  color: var(--sec-text);
+}
+
+.button:hover {
+  color: var(--prim-text);
+  background-color: var(--btn-hover-bg-color);
+}
